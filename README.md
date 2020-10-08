@@ -1,6 +1,6 @@
-# Australian BioCommons Documentation Guidelines
+# Helper documentation for bulk genomes uploads to ENA sequence repository 
 
-This repository contains a set of guidelines for bioinformatics tools and workflows. 
+Example workflow for upload multifasta files with exome capture assemblies produced by [TCCP](https://hub.docker.com/r/trust1/ubuntu). 
 
 The initial version uploaded to GitHub was informed by current documentation practices and structures used in the GitHub community.
 
