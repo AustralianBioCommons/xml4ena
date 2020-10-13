@@ -1,0 +1,15 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  7464  100   667  100  6797    424   4329  0:00:01  0:00:01 --:--:--  4751100  7464  100   667  100  6797    424   4329  0:00:01  0:00:01 --:--:--  4751
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="receipt.xsl"?>
+<RECEIPT receiptDate="2020-09-25T00:38:36.465+01:00" submissionFile="submission.xml" success="true">
+     <SAMPLE accession="ERS0000001" alias="10001" status="PRIVATE">
+          <EXT_ID accession="SAMEA0000110" type="biosample"/>
+     </SAMPLE>
+     <SUBMISSION accession="" alias="SUBMISSION-25-09-2020-00:38:36:347"/>
+     <MESSAGES>
+          <INFO>Submission has been committed.</INFO>
+     </MESSAGES>
+     <ACTIONS>MODIFY</ACTIONS>
+</RECEIPT>

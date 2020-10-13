@@ -1,13 +1,13 @@
 #!/usr/bin/perl 
-#15/08/2020
+#13/10/2020
 # SOME FIXED FIELDS WHICH WILL BE SAME ACROSS SAMPLES
 $investigationtype     = "phylogenetic study";
 $sequencingmethod      = "Illumina SBS, short PE reads";
-$bioprojectaccessionid = "PRJEB39788";     #Registry project online manually prior to generating those XMLs
+$bioprojectaccessionid = "PRJEB00000000";     #Registry project online manually prior to generating those XMLs
 
 print "For full list of available checklists refer:    www.ebi.ac.uk/ena/browser/checklists\n";  
 print "Using ERC000011 - ENA default sample checklist: www.ebi.ac.uk/ena/browser/api/xml/ERC000011\n";
-print "\nEnter full path  to the file metadata file:\n";
+print "\nEnter full path  to the file metadata file (or enter for metatdata.txt):\n";
 $metadatatsv = <STDIN>;
 chomp $metadatatsv ;
 if ($metadatatsv eq "") {
