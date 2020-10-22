@@ -125,4 +125,6 @@ Check receipts for line pattern success="true". Keep receipts in case you may ne
      <ACTIONS>MODIFY</ACTIONS>
 </RECEIPT>
 
+---
+
 Refer to ENA portal for more detailed documentation about submission [ processes ]( https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html ).
