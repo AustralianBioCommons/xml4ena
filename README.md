@@ -106,24 +106,26 @@ do echo $file && java -jar webin-cli-3.1.0.jar  \
 done
 
 
-# 2.4  Collect fasta data id from 
+# 2.4  Collect fasta data ids from reciepts. 
 Check receipts for line pattern success="true". Keep receipts in case you may need further work or update those assembly files. Here is example of receipt file:
 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Download  Upload   Total   Spent    Left  Speed
 100  7322  100   542  100  6780    345   4323  0:00:01  0:00:01 --:--:--  4666
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="receipt.xsl"?>
-<RECEIPT receiptDate="2020-09-25T00:38:36.465+01:00" submissionFile="submission.xml" success="true">
-     <SAMPLE accession="ERS0000001" alias="10001" status="PRIVATE">
-          <EXT_ID accession="SAMEA0000110" type="biosample"/>
-     </SAMPLE>
-     <SUBMISSION accession="" alias="SUBMISSION-25-09-2020-00:38:36:347"/>
-     <MESSAGES>
-          <INFO>Submission has been committed.</INFO>
-     </MESSAGES>
-     <ACTIONS>MODIFY</ACTIONS>
-</RECEIPT>
+\<?xml version="1.0" encoding="UTF-8"?\>
+\<?xml-stylesheet type="text/xsl" href="receipt.xsl"?\>
+\<RECEIPT receiptDate=\"2020-09-25T00:38:36.465+01:00\" submissionFile=\"submission.xml\" success="true"\>
+     \<SAMPLE accession="ERS0000001" alias="10001" status="PRIVATE"\>
+          \<EXT_ID accession="SAMEA0000110" type="biosample"/>
+     \</SAMPLE\>
+     \<SUBMISSION accession="" alias="SUBMISSION-25-09-2020-00:38:36:347"/\>
+     \<MESSAGES\>
+          \<INFO\>Submission has been committed.\</INFO\>
+     \</MESSAGES\>
+     \<ACTIONS\>MODIFY\</ACTIONS\>
+\</RECEIPT\>
+
+
 
 ---
 
