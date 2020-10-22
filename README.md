@@ -29,14 +29,14 @@ $bioprojectaccessionid = "PRJEB00000";     #Registry project online manually pri
 Script should produce set of XML files ready for upload to ENA
 # 1.3 Prepare submission.xml
 This small extra xml file with action details can be done manually. This file should have following lines:
-\<\?xml version="1.0" encoding="UTF-8"?\>
-\<SUBMISSION>
-\   <ACTIONS>
-\      <ACTION>
-\         <ADD/>
-\      </ACTION>
-\   </ACTIONS>
-\</SUBMISSION>
+\<\?xml version="1.0" encoding="UTF-8"?\><br>
+\<SUBMISSION\><br>
+   \<ACTIONS\><br>
+      \<ACTION\><br>
+         <ADD/\><br>
+      \</ACTION\><br>
+   \</ACTIONS\><br>
+\</SUBMISSION\><br>
 
 You can change  \<ADD/\> to  
 \<MODIFY/>   ## For update existing sample. This is convinient to upload new version of assembly.
