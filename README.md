@@ -7,7 +7,7 @@ Follow interactive menu and enter information about your study. This will create
 
 # Stage 1: Prepare biosamples entries [sample_xmler.pl]
 Biosample records contains information about your sample specifics and will link this sample metadata to the project id (stage 0) and later the sequence assembly fasta file. Following steps will be required to run sample_xmler.pl  
-#1.1 Collect metadata in single tab delimited metadata.txt file. 
+# 1.1 Collect metadata in single tab delimited metadata.txt file. 
 Metadata file can have arbitrary number of fields (columns) but there are following obligatory columns which you have select interactively with perl script.
 1)	Sample ID/NAME  --  should match beginning of assembly file name. I recommend use BPA sample ID here. 
 2)	TAXON_ID  -- note this should be exact species identifier from NCBI taxonomy database. Genus or any other than species  taxonomy level are not allowed here. 
@@ -19,7 +19,8 @@ There are some optional columns with geographical information which will be pars
 •	collection_date
 Here is example for two samples in metadata.txt file.
 
-#1.2  Run sample_xmler.pl script to convert meta 
+# 1.2  Run sample_xmler.pl script to convert meta 
+
 You have fix those variables in script before running (sorry no interface for those yet):
 $investigationtype     = "phylogenetic study";
 $sequencingmethod      = "Illumina SBS, short PE reads";
@@ -89,7 +90,7 @@ SAMEA0000110  -- Sample identifier could be taken either from XML submission rec
              <VALIDATE/>
          </ACTION>
 
-#2.3 Submit sequence data with webin-cli-3.1.0.jar
+# 2.3 Submit sequence data with webin-cli-3.1.0.jar
 For upload fasta you will need to get submission program webin-cli-3.1.0.jar (or latest) from the ENA site: https://github.com/enasequence/webin-cli/releases
 
 Here is shell command to cycle across manifests and samples:
@@ -105,7 +106,7 @@ do echo $file && java -jar webin-cli-3.1.0.jar  \
 done
 
 
-#2.4  Collect fasta data id from 
+# 2.4  Collect fasta data id from 
 Check receipts for line pattern success="true". Keep receipts in case you may need further work or update those assembly files. Here is example of receipt file:
 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
